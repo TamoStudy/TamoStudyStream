@@ -1,18 +1,8 @@
 package tamostudy;
 
-import java.awt.GridLayout;
 import java.io.File;
 import java.text.SimpleDateFormat;
-import java.time.LocalDate;
-import java.time.temporal.ChronoUnit;
 import java.util.Date;
-import java.util.concurrent.ThreadLocalRandom;
-
-import javax.swing.ImageIcon;
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JTextField;
 
 /**
  * @author Anthony Narlock (narlock)

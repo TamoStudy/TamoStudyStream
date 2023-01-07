@@ -195,7 +195,7 @@ public class AppearanceChangeGUI extends JFrame {
 		settings.setTimerBorder(timerStreamPanel);
 	}
 	
-	private JPanel createColorChangePanel(int indicator, String text) {
+	private JPanel createColorChangePanel(final int indicator, String text) {
 		JPanel panel = new JPanel();
 		panel.setBackground(Color.DARK_GRAY);
 		panel.setAlignmentX(LEFT_ALIGNMENT);
@@ -216,7 +216,7 @@ public class AppearanceChangeGUI extends JFrame {
 		return panel;
 	}
 	
-	private JPanel createFontChangePanel(int indicator, String text) {
+	private JPanel createFontChangePanel(final int indicator, String text) {
 		JPanel panel = new JPanel();
 		panel.setBackground(Color.DARK_GRAY);
 		panel.setAlignmentX(LEFT_ALIGNMENT);
@@ -246,7 +246,7 @@ public class AppearanceChangeGUI extends JFrame {
 		label.setFont(new Font("Tahoma", Font.BOLD, 20));
 		panel.add(label);
 		
-		JLabel thicknessLabel = new JLabel(Long.toString(settings.getTimerBorderThickness()));
+		final JLabel thicknessLabel = new JLabel(Long.toString(settings.getTimerBorderThickness()));
 		thicknessLabel.setForeground(Color.WHITE);
 		thicknessLabel.setFont(new Font("Tahoma", Font.BOLD, 20));
 		
@@ -300,7 +300,7 @@ public class AppearanceChangeGUI extends JFrame {
 		label.setFont(new Font("Tahoma", Font.BOLD, 20));
 		panel.add(label);
 		
-		JComboBox<String> borderTypeBox = new JComboBox<String>();
+		final JComboBox<String> borderTypeBox = new JComboBox<String>();
 		componentSetup.setUpJComboBox(borderTypeBox);
 		borderTypeBox.addItem("Rounded");
 		borderTypeBox.addItem("Rectangluar");
