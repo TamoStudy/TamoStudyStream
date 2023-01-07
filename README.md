@@ -28,6 +28,7 @@
 - [Website](http://tamostudy.com/)
 - [Features](#Features)
 - [Setup TamoStudyStream](#Setup-TamoStudy)
+- [Program Demo](#Program-Demo)
 
 ## **Features**
 
@@ -82,6 +83,9 @@
     > Depending on your operating system, there may be certain permissions you must authorize TamoStudy to in order to execute the program.
     - For Linux distributions, permissions to execute the application must be granted.
     - For macOS, depending on the installation, the user may need to launch the application through the command line (assuming the application already has permissions). To run through the command line, navigate the terminal to the directory of TamoStudy, then type the command `java -jar TamoStudy.jar`. The application will now function properly.
+    
+## **Program Demo**
+<a href="https://www.youtube.com/watch?v=eldquM-HlaY"><img src="https://i.imgur.com/4Y26bRC.jpg" width="75%"></a>
 
 <hr>
 <p align="center">
