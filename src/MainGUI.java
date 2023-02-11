@@ -461,6 +461,7 @@ public class MainGUI extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				String studyMessage = "You studied for " + tempMin + " minute(s) and " + tempSec + " second(s).";
+				breakCondition = false;
 				resetTimer();
 				timer.stop();
 				JOptionPane.showMessageDialog(rootPane, studyMessage, "Session Focus Broke", JOptionPane.INFORMATION_MESSAGE,  new ImageIcon(getClass().getClassLoader().getResource("INFO.png")));
