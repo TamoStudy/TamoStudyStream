@@ -26,28 +26,34 @@
 **TamoStudy: Stream** - A work and study productivity timer created to serve the purpose of providing study with me streamers a free and easy-to-use study timer that they can customize to their choosing.
 
 - [Website](http://tamostudy.com/)
-- [Features](#Features)
-- [Setup TamoStudyStream](#Setup-TamoStudy)
-- [Program Demo](#Program-Demo)
+- [Features](#features)
+- [Setup TamoStudyStream](#setup-tamostudystream)
+- [Program Demo](#program-demo)
 
 ## **Features**
 
 ### Pomodoro Timer
 - A simple, customizable *Pomodoro* countdown timer for deep focus work. Utilizes the popular [pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) that breaks down work into intervals. For a number of sessions, focus for a specified amount of time, then take a break for a specified amount of time. This pomodoro timer is identical to the one utilized in [TamoStudy](https://github.com/narlock/TamoStudy).
 
-![Pomodoro Timer](./README%20Assets/MainScreen.png)
+<p align="center">
+  <img src="./README%20Assets/MainScreen.png" width="70%"/>
+</p>
 
 ### File I/O Settings
 - This application will create a directory in your Documents folder named "TamoStudyStream" along with a `settings.json` file. This file serves the purpose of storing your settings for using the application. The JSON library used in this project is [json-simple](https://code.google.com/archive/p/json-simple/).
 - While utilizing TamoStudyStream, the **File** tab allows the user to *Link their TamoStudy Profile* to achieve Tamo Tokens while utilizing the Stream version.
 - The **File** tab allows the user to view their current settings (shown below), import an existing `settings.json` file, export their current settings into a `settings.json` file, or reset their settings to the defaults shown above.
 
-![Settings](./README%20Assets/Settings.png)
+<p align="center">
+  <img src="./README%20Assets/Settings.png" width="70%"/>
+</p>
 
 ### Customize Timer Sound
 - Choose from the TamoStudy selection of ending sounds. Preview of the sound is available to listen to.
 
-![Sound Settings](./README%20Assets/SoundSettings.png)
+<p align="center">
+  <img src="./README%20Assets/SoundSettings.png" width="70%"/>
+</p>
 
 ### Customize Timer Visual Appearance
 - Change the interface background color of TamoStudyStream.
@@ -59,7 +65,9 @@
 - Change the thickness of the timer's border.
 - Change the border type (Rounded or Rectangular).
 
-![Timer Customize Settings](./README%20Assets/TimerAppearance.png)
+<p align="center">
+  <img src="./README%20Assets/TimerAppearance.png" width="70%"/>
+</p>
 
 ## **Setup TamoStudyStream**
 
@@ -85,7 +93,7 @@
     - For macOS, depending on the installation, the user may need to launch the application through the command line (assuming the application already has permissions). To run through the command line, navigate the terminal to the directory of TamoStudy, then type the command `java -jar TamoStudy.jar`. The application will now function properly.
     
 ## **Program Demo**
-<a href="https://www.youtube.com/watch?v=eldquM-HlaY"><img src="https://i.imgur.com/4Y26bRC.jpg" width="75%"></a>
+<a href="https://www.youtube.com/watch?v=eldquM-HlaY"><img src="https://i.imgur.com/4Y26bRC.jpg" width="70%"></a>
 
 <hr>
 <p align="center">
